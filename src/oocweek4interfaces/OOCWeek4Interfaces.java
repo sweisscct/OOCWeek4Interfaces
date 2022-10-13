@@ -1,0 +1,35 @@
+/*
+ * Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
+ * Click nbfs://nbhost/SystemFileSystem/Templates/Classes/Main.java to edit this template
+ */
+package oocweek4interfaces;
+
+/**
+ *
+ * @author Administrator
+ */
+public class OOCWeek4Interfaces {
+
+    /**
+     * @param args the command line arguments
+     */
+    public static void main(String[] args) {
+        Rectangle rect1 = new Rectangle();
+        Rectangle rect2 = new Rectangle(true, "Orange", 2, 3);
+        
+        System.out.println(rect1);
+        System.out.println(rect2);
+        System.out.println(rect1.getColour());
+        System.out.println(rect2.getColour());
+        System.out.println(Double.toString(rect1.getHeight()));
+        System.out.println(rect2.getHeight());
+        
+        Circle circle1 = new Circle();
+        Circle circle2 = new Circle(true, "Blue", 8);
+        System.out.println(circle1.calculateArea());
+        System.out.println(circle2.calculateArea());
+        
+        
+    }
+    
+}
