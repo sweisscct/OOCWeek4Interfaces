@@ -8,7 +8,7 @@ package oocweek4interfaces;
  *
  * @author Sam
  */
-public class Box extends Shape {
+public class Box extends Shape implements ThreeDim {
     private double length;
     private double width;
     private double height;
@@ -25,6 +25,7 @@ public class Box extends Shape {
         return 2*length*width + 2*length*height + 2*width*height;
     }
     
+    @Override
     public double calculateVolume() {
         return length*width*height;
     }

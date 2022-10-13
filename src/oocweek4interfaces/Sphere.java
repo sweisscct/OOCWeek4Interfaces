@@ -8,7 +8,7 @@ package oocweek4interfaces;
  *
  * @author Administrator
  */
-public class Sphere extends Shape{
+public class Sphere extends Shape implements ThreeDim{
     private double radius;
     
     public Sphere() {
@@ -21,6 +21,7 @@ public class Sphere extends Shape{
         return 4 * 3.14 * radius * radius;
     }
     
+    @Override
     public double calculateVolume() {
         return 4.0/3.0 * 3.14 * radius * radius * radius;
     }
