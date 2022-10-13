@@ -9,9 +9,9 @@ package oocweek4interfaces;
  * @author Sam
  */
 public class Box extends Shape {
-    double length;
-    double width;
-    double height;
+    private double length;
+    private double width;
+    private double height;
     
     public Box() {
         super();
@@ -28,4 +28,30 @@ public class Box extends Shape {
     public double calculateVolume() {
         return length*width*height;
     }
+
+    public double getLength() {
+        return length;
+    }
+
+    public void setLength(double length) {
+        this.length = length;
+    }
+
+    public double getWidth() {
+        return width;
+    }
+
+    public void setWidth(double width) {
+        this.width = width;
+    }
+
+    public double getHeight() {
+        return height;
+    }
+
+    public void setHeight(double height) {
+        this.height = height;
+    }
+    
+    
 }
