@@ -28,8 +28,6 @@ public class OOCWeek4Interfaces {
         Circle circle2 = new Circle(true, "Blue", 8);
         System.out.println(circle1.calculateArea());
         System.out.println(circle2.calculateArea());
-        
-        
     }
     
 }
