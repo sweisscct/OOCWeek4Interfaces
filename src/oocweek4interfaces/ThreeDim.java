@@ -9,5 +9,9 @@ package oocweek4interfaces;
  * @author Sam
  */
 public interface ThreeDim {
-    public double calculateVolume(); 
+    public double calculateVolume();
+    
+    public default void sayHello() {
+        System.out.println("Hello!");
+    }
 }

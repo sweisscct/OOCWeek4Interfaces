@@ -36,5 +36,8 @@ public class OOCWeek4Interfaces {
         Sphere sphere1 = new Sphere();
         System.out.println(sphere1.calculateArea());
         System.out.println(sphere1.calculateVolume());
+        
+        box1.sayHello();
+        sphere1.sayHello();
     }
 }
